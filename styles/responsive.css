@@ -1,0 +1,96 @@
+/* Media Query */
+
+@media screen and (max-width: 760px) {
+
+
+
+
+
+    /* Header Section Start */
+    .nav-container{
+      flex-direction: column;
+    }
+  
+    .nav-items{
+      margin-top: 1em;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Header Section End */
+
+
+
+
+
+    /* Feature List Start */
+    .feature-section-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .feature-text-container {
+      text-align: center;
+    }
+    .feature-img-container {
+      order: 2;
+    }
+    /* Feature List End */
+
+
+
+
+
+
+
+
+  
+    /* Best Features Start*/
+    .feature-title {
+      font-size: 0.8rem;
+    }
+  
+    .info {
+      font-size: 0.8rem;
+    }
+  
+    .best-features-text {
+      overflow: scroll;
+    }
+    /* Best Features End*/
+
+
+
+
+
+
+
+
+  
+    /* Facts Start */
+    .fact-icons-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    /* Facts End */
+
+
+
+
+
+
+
+
+  
+    /* Our Sponsors Start */
+  
+    .sponsor-icons {
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+    /* Our Sponsors End */
+
+
+
+
+  }
+  
