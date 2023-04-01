@@ -45,4 +45,40 @@
   
   
   
+  /* Hero Styles */
+.hero-container {
+    width: 100%;
+    padding: 2em;
+  }
+  
+  .landing-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-image-container {
+    margin: 0 auto;
+    width: 80%;
+    object-fit: cover;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
