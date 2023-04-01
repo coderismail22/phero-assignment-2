@@ -206,6 +206,38 @@
   
   
   
+  /* Sponsor Styles */
+.sponsors-container {
+    padding: 10%;
+  }
+  
+  .sponsor-info {
+    text-align: center;
+  }
+  .sponsor-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    place-items: center;
+    margin-top: 1em;
+  }
+  
+  .sponsor-icons img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
