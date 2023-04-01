@@ -6,3 +6,43 @@
       "Lucida Sans", Arial, sans-serif;
   }
   
+
+  /* Header Styles */
+.header-section{
+    background-color: #fdecd3;
+  }
+  
+  
+  .home-page-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em;
+  
+  }
+  
+  .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
