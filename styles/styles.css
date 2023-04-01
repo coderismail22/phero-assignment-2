@@ -79,6 +79,45 @@
   
   
   
+/* Feature List Styles */
+.feature-section-container {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    place-items: center;
+  }
+  
+  .feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-img {
+    margin: 0.5em;
+  }
+  .feature-img img {
+    width: 100%;
+    border-radius: 0.3em;
+  }
+  
+  .explore-btn {
+    margin: 1em 0;
+    border-radius: 0.5em;
+    border: 1px solid orange;
+    padding: 0.5em;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
